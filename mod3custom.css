@@ -1,0 +1,9 @@
+.navbar-brand{
+    align:left;
+}
+#header-nav{
+    background-color: #fa919a;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0;
+}
