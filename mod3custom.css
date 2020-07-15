@@ -12,11 +12,14 @@
 
 }
 section{
-    height:1000px;
-    border: 5px black;
+    height:700px;
+    border: 5px solid black;
     background-color: gray;
     text-align: center;
-    margin: 10px auto;
+    margin: 10px 10px 10px 10px;
+}
+body{
+    box-sizing: border-box;
 }
 h2,h3{
     text-align: center;
