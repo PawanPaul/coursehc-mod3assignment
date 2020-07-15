@@ -1,9 +1,29 @@
 .navbar-brand{
-    align:left;
+    align-self:left;
 }
 #header-nav{
     background-color: #fa919a;
     font-weight: bold;
     border: 0;
     border-radius: 0;
+}
+#nav-list{
+    float:right;
+
+}
+section{
+    height:1000px;
+    border: 5px black;
+    background-color: gray;
+    text-align: center;
+    margin: 10px auto;
+}
+h2,h3{
+    text-align: center;
+    text-emphasis: bold;
+}
+.navbar-right{
+    position: absolute;
+    right: 0;
+    bottom: 2px;
 }
