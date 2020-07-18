@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css\bootstrap.css"></linkrel>
-        <script src="js\bootstrap.js"></script>
+
         <link rel="stylesheet" href="mod3custom.css"></linkrel>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -13,16 +13,15 @@
         <header>
             <nav id = "header-nav" class="navbar navbar-default">
                 <div class="container-fluid">
-                    <div class="navbar-header">
                     <a class="navbar-brand" href="solutionmod3.html">Food,LLC</a>
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
-                          <span class="sr-only">Toggle Navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
+                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                           <span class="sr-only">Toggle Nav</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                       </button>
 
-                      <div id="collapsable-nav" class="collapse navbar-collapse">
+                      <div id="collapsable-nav" class="navbar-collapse collapse" aria-expanded="false">
                           <ul id="nav-list" class="nav navbar-nav navbar-right">
                               <li>
                                   <a href="chickmenu.html">
@@ -41,11 +40,14 @@
                              </li>
                           </ul>
                       </div>
+                      <script src="js\bootstrap.js"></script>
+                      <script src="js\script.js"></script>
+                      <script src="js\jquery-3.5.1.min.js"></script>
 
 
-                    </div> <!--End of container menu-->
-                </div> 
+                </div> <!--End of container menu-->
             </nav>
+        </header>
             <div>
                 <h2>Our Menu</h2>
                 <section class="col-md-3 col-sm-5 col-xs-11 pull-center">
